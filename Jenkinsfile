@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         GITHUB_URL = 'https://github.com/meltoneb-glitch/metallb-deploy'  // <---- Change this to match your cloned repository
-        KUBECONFIG = credentials('cet-advising')   // <---- Change this to match your kubernetes cluster credentials
+        KUBECONFIG = credentials('meltoneb-225')   // <---- Change this to match your kubernetes cluster credentials
     }
 
     stages {
